@@ -29,12 +29,7 @@ function Home() {
         </ul>
       </nav>
       <section>
-        <div className="textBox">
-          <h1><span>Animated</span> Background (CSS)</h1>
-          <p>Fast Track Your Web Development Career with Our Team! <br />Learn Web Development from Beginning with live coding sessions on your Laptop!</p>
-          <button className="homeBtn" style={{'--i': '#fff'}}>Join Us</button>
-          <button className="homeBtn" style={{'--i': '#00bfff'}}>EXPLORE</button>
-        </div>
+       
       </section>
     </div>
   </div>
