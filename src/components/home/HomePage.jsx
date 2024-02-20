@@ -1,6 +1,6 @@
 import React,{ useEffect }from 'react'
 import './style.css'
-function Home() {
+function HomePage() {
     useEffect(() => {
         const bgAnimation = document.getElementById('bgAnimation');
         const numberOfColorBoxes = 100;
@@ -36,4 +36,4 @@ function Home() {
   );
 }
 
-export default Home
+export default HomePage
