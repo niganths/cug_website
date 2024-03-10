@@ -1,6 +1,6 @@
-import HomePage from "../components/home/HomePage";
+import Background from "../components/designs/Background";
 function Home() {
-  return <HomePage />;
+  return <Background />;
 }
 
 export default Home;

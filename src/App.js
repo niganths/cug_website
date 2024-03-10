@@ -6,6 +6,7 @@ const router = createBrowserRouter([
   { path: "/about", element: <About /> },
 ]);
 function App() {
+ 
   return <RouterProvider router={router} />;
 }
 

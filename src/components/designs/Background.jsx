@@ -1,5 +1,7 @@
 import React,{ useEffect }from 'react'
 import './style.css'
+import { Link } from 'react-router-dom';
+
 function HomePage() {
     useEffect(() => {
         const bgAnimation = document.getElementById('bgAnimation');
@@ -20,8 +22,9 @@ function HomePage() {
       <nav>
         <h1><span>C</span>UG</h1>
         <ul>
-          <li>Home</li>
-          <li>About</li>
+          <li>
+          <Link to="/about">About</Link>
+          </li>
           <li>Events</li>
           <li>RoadMap</li>
           <li>News</li>

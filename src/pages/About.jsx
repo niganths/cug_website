@@ -1,4 +1,5 @@
+import Background from "../components/designs/Background";
 function About() {
-  return <h1>About</h1>;
+  return <Background/>;
 }
 export default About;
