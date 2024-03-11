@@ -1,6 +1,13 @@
 import Background from "../components/designs/Background";
+
 function Home() {
-  return <Background />;
+  return (
+    <>
+      <div style={{ position: "relative" }}>
+        <Background />
+      </div>
+    </>
+  );
 }
 
 export default Home;
