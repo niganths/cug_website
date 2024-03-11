@@ -1,6 +1,6 @@
 import React,{ useEffect }from 'react'
 import './style.css'
-import { Link } from 'react-router-dom';
+
 
 function HomePage() {
     useEffect(() => {
@@ -14,28 +14,12 @@ function HomePage() {
         }
       }, []);
   return (
-    <div>
+   
     <div className="bgAnimation" id="bgAnimation">
       <div className="backgroundAmim"></div>
     </div>
-    <div className="container">
-      <nav>
-        <h1><span>C</span>UG</h1>
-        <ul>
-          <li>
-          <Link to="/about">About</Link>
-          </li>
-          <li>Events</li>
-          <li>RoadMap</li>
-          <li>News</li>
-          <li>Events</li>
-        </ul>
-      </nav>
-      <section>
-       
-      </section>
-    </div>
-  </div>
+
+  
   );
 }
 
