@@ -1,6 +1,7 @@
 import React from "react";
 import "./Navbar.css";
-import Logo from "../../assets/gifs/cuglogo.png"
+import Logo from "../../assets/gifs/cuglogo.png";
+import { Link } from "react-router-dom";
 function Navbar() {
   return (
     <header>
@@ -9,29 +10,19 @@ function Navbar() {
 
         <ul className="nav__menu">
           <li className="nav__item">
-            <a href="/" className="nav__link">
-              Home
-            </a>
+            <Link to="/">Home</Link>
           </li>
           <li className="nav__item">
-            <a href="/" className="nav__link">
-              Events
-            </a>
+            <Link to="/events">Events</Link>
           </li>
           <li className="nav__item">
-            <a href="/" className="nav__link">
-              Roadmap
-            </a>
+            <Link to="/roadmap">Roadmap</Link>
           </li>
           <li className="nav__item">
-            <a href="/" className="nav__link">
-              About
-            </a>
+            <Link to="/about">About</Link>
           </li>
           <li className="nav__item">
-            <a href="/" className="nav__link">
-              Contact
-            </a>
+            <Link to="/contact">Contact</Link>
           </li>
         </ul>
       </nav>

@@ -1,15 +1,21 @@
 import Home from "./pages/Home";
 import About from "./pages/About";
-import Navbar from "./components/navbar/Navbar.jsx";
+
+import RootLayout from "./pages/RootLayout";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 const router = createBrowserRouter([
-  { path: "/", element: <Home /> },
-  { path: "/about", element: <About /> },
+  {
+    path: "/",
+    element: <RootLayout />,
+    children: [
+      { index: true, element: <Home /> },
+      { path: "about", element: <About /> },
+    ],
+  },
 ]);
 function App() {
   return (
     <>
-      <Navbar />
       <RouterProvider router={router} />
     </>
   );
