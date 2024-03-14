@@ -5,7 +5,7 @@ import "../css/about.css"
 function About() {
   return (
     <div style={{ position: "relative",width:"100%" }}>
-      <Background/>
+      <Background data="about"/>
       <div style={{position:"absolute",justifyContent:'center',width:'100%'}}>
         <h3 class="animate-charcter" style={{display:"flex",justifyContent:'center'}}> ABOUT CUG 🌩️</h3>
         <section style={{marginTop:"40px"}}>

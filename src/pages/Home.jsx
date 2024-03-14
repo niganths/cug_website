@@ -4,7 +4,7 @@ function Home() {
   return (
     <>
       <div style={{ position: "relative" }}>
-        <Background />
+        <Background data="home"/>
       </div>
     </>
   );
