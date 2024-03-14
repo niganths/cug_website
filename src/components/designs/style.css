@@ -10,6 +10,7 @@ body {
   color: #fff;
   background: #111;
   font-family: "Poppins", sans-serif;
+
 }
 
 .textBox h1 {
@@ -56,6 +57,8 @@ body {
   background: #1d1d1d;
   filter: saturate(2);
   overflow: hidden;
+  min-height: 100vh;
+  
 }
 
 .colorBox {
@@ -66,6 +69,7 @@ body {
   margin: 2px;
   /* background: #1d1d1d; */
   background-color: #000;
+ 
 }
 
 .colorBox:hover {
