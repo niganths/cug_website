@@ -15,7 +15,7 @@ nav {
   align-items: center;
   justify-content: space-between;
   height: 10vh;
-  background: rgba(33, 29, 29, 0.5); /* Semi-transparent background */
+  background: #211d1d80; /* Semi-transparent background */
   backdrop-filter: blur(10px); /* Adjust the blur value as needed */
   -webkit-backdrop-filter: blur(10px); /* For Safari */
   gap: 20rem;
