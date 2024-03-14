@@ -1,8 +1,7 @@
 import React,{ useEffect }from 'react'
 import './style.css'
-
-
 function HomePage() {
+  
     useEffect(() => {
         const bgAnimation = document.getElementById('bgAnimation');
         const numberOfColorBoxes = 100;
