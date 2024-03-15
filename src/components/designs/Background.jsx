@@ -1,12 +1,13 @@
 import React,{ useEffect }from 'react'
 import './style.css'
+
+
 function HomePage(props) {
   const {data} = props;
   const render = data === "home" ? 200 : 150;
   const bgAnimationStyle = {
    height: `${render}vh` 
 };
-  
     useEffect(() => {
         const bgAnimation = document.getElementById('bgAnimation');
         const numberOfColorBoxes = render;
@@ -16,7 +17,7 @@ function HomePage(props) {
           colorBox.classList.add('colorBox');
           bgAnimation.appendChild(colorBox);
         }
-      }, []);
+      }, [render]);
   return (
    
     <div className="bgAnimation" id="bgAnimation" style={bgAnimationStyle}>
@@ -27,4 +28,4 @@ function HomePage(props) {
   );
 }
 
-export default HomePage
+export default HomePage;
