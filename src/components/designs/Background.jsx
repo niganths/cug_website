@@ -2,13 +2,12 @@ import React,{ useEffect }from 'react'
 import './style.css'
 
 
-function Background(props) {  
-
-     const {data} = props;
-     const render = data === "home" ? 200 : 100;
-     const bgAnimationStyle = {
-      height: `${render}vh` 
-  };
+function HomePage(props) {
+  const {data} = props;
+  const render = data === "home" ? 200 : 150;
+  const bgAnimationStyle = {
+   height: `${render}vh` 
+};
     useEffect(() => {
         const bgAnimation = document.getElementById('bgAnimation');
         const numberOfColorBoxes = render;
@@ -29,4 +28,4 @@ function Background(props) {
   );
 }
 
-export default Background;
+export default HomePage;
