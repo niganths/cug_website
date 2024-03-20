@@ -1,5 +1,4 @@
 import Background from "../components/designs/Background";
-import imgw from "../assets/gifs/Cloud-Computing.png";
 function Home() {
   return (
     <>
