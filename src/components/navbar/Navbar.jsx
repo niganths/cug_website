@@ -11,7 +11,11 @@ function Navbar() {
   };
 
   return (
+<<<<<<< HEAD
+    <nav className="bg-white-29 bg-white-1000  justify-around">
+=======
     <nav className="bg-opacity-75 bg-gray-29 dark:bg-gray-1000  justify-around">
+>>>>>>> 20feb92513efcd78b66fd09765207a4e4fa4b606
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <a
           href="https://flowbite.com/"
@@ -70,6 +74,15 @@ function Navbar() {
               </Link>
             </li>
             <li>
+<<<<<<< HEAD
+              <a href="#" className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Events</a>
+            </li>
+            <li>
+              <a href="#" className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Roadmap</a>
+            </li>
+            <li>
+              <a href="#" className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Join</a>
+=======
               <Link
                 to="/about"
                 className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
@@ -92,6 +105,7 @@ function Navbar() {
               >
                 Contact
               </Link>
+>>>>>>> 20feb92513efcd78b66fd09765207a4e4fa4b606
             </li>
           </ul>
         </div>

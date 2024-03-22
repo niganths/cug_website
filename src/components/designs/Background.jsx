@@ -8,9 +8,15 @@ function HomePage(props) {
   const horizontalBoxes = Math.floor(width / 60);
   const verticalBoxes = Math.floor(Height / 71);
   const totalBoxes = horizontalBoxes * verticalBoxes;
+<<<<<<< HEAD
+  console.log("hello w"+width)
+  const {data} = props;
+  const render = data === "home" ? 200 : 300;
+=======
   console.log("hello w" + width);
   const { data } = props;
   const render = data === "home" ? 200 : totalBoxes * 1.5;
+>>>>>>> 20feb92513efcd78b66fd09765207a4e4fa4b606
   const bgAnimationStyle = {
     height: `${render}vh`,
   };

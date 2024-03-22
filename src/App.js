@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Home from "./pages/Home/Home.jsx";
 import About from "./pages/About";
+import Events from "./pages/Events";
 import RootLayout from "./pages/RootLayout";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Preloader from "./components/preloader/PreLoader";
@@ -11,6 +12,7 @@ const router = createBrowserRouter([
     children: [
       { index: true, element: <Home /> },
       { path: "about", element: <About /> },
+      { path: "events", element: <Events /> },
     ],
   },
 ]);
