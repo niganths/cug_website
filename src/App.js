@@ -3,7 +3,7 @@ import Home from "./pages/Home/Home.jsx";
 import About from "./pages/About";
 import RootLayout from "./pages/RootLayout";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
-// import Preloader from "./components/preloader/PreLoader";
+import Preloader from "./components/preloader/PreLoader";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -23,8 +23,10 @@ function App() {
     return () => clearTimeout(timer);
   }, []);
   return (
-    // <div>{loading ? <Preloader /> : <RouterProvider router={router} />}</div>
-    <RouterProvider router={router} />
+    <div>{loading ? <Preloader /> : <RouterProvider router={router} />}
+   
+    </div>
+   
   );
 }
 

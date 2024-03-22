@@ -1,16 +1,14 @@
 import { Outlet } from "react-router-dom";
-import Header from "../components/Header/Header.jsx";
+import Navbar from "../components/navbar/Navbar";
 
 
-function RootLayout() {
-  return (
-    <>
-      <Header />
-      <main>
-        <Outlet />
-      </main>
-     
-    </>
-  );
+        <>
+        <Navbar />
+        <main>
+            <Outlet />
+        </main>
+        </>
+
+    );
 }
 export default RootLayout;

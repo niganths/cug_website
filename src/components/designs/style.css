@@ -93,5 +93,14 @@ body {
     top: 120%;
   }
 }
+@media only screen and (max-width: 768px) {
+  .colorBox {
+    
+      width: 60px; 
+      height: 80px; 
+    }
+  }
+
+
 
 
