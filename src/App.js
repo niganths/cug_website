@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import Home from "./pages/Home";
+import Home from "./pages/Home/Home.jsx";
 import About from "./pages/About";
 import Events from "./pages/Events";
 import RootLayout from "./pages/RootLayout";
