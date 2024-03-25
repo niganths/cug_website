@@ -1,4 +1,4 @@
-import { GitHub, Instagram, Linkedin, Mail } from "react-feather";
+import {  Instagram, Linkedin, Mail } from "react-feather";
 
 const socials = [
   {
@@ -14,13 +14,6 @@ const socials = [
     text: "LinkedIn",
     username: "force-iiitu",
     linkText: "linkedin.com/company/force-iiitu",
-  },
-  {
-    link: "https://github.com/iiitu-force",
-    icon: <GitHub />,
-    text: "GitHub",
-    username: "iiitu-force",
-    linkText: "github.com/iiitu-force",
   },
   {
     link: "mailto:clubforce@iiitu.ac.in",

@@ -1,18 +1,9 @@
 import React from 'react';
 import './member.css';
 
-const memberData = [
-  { img: require('../../assets/images/DSC09863_result.jpg'), name:'Niganth SG', role: 'MEMBER',year:'THIRD - CSE' },
-  { name: 'Nithish P', role: 'MEMBER',year:'THIRD - CSE' },
-  { name: 'Nithish P', role: 'MEMBER',year:'THIRD - CSE' },
-  { name: 'Nithish P', role: 'MEMBER',year:'THIRD - CSE' },
-  { name: 'Nithish P', role: 'MEMBER',year:'THIRD - CSE' },
-  { name: 'Nithish P', role: 'MEMBER',year:'THIRD - CSE' },
-  { name: 'Nithish P', role: 'MEMBER',year:'THIRD - CSE' },
-  { name: 'Nithish P', role: 'MEMBER',year:'THIRD - CSE' },
-  { name: 'Nithish P', role: 'MEMBER',year:'THIRD - CSE' },
- 
-];
+import
+  memberData
+ from "../../util/memberlist.js"
 
 const Members = () => {
   return (

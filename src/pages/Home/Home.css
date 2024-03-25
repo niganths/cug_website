@@ -19,7 +19,7 @@
   filter: blur(220px);
 }
 .home-hero {
-  height: 100vh !important;
+  height: 75vh;
   background-color: #111010;
   overflow-y: hidden;
   padding-top: 1rem;
@@ -306,4 +306,20 @@
   100% {
     transform: translateY(0);
   }
+}
+/* Define animation keyframes */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Apply animation to HomeCard */
+.homeCard {
+  animation: fadeInUp 1s ease-in-out; /* Adjust duration and easing as needed */
 }

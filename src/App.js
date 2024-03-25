@@ -5,6 +5,8 @@ import Events from "./pages/Events";
 import RootLayout from "./pages/RootLayout";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Preloader from "./components/preloader/PreLoader";
+import News from "./pages/news/News.jsx";
+import { dividerClasses } from "@mui/material";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -13,6 +15,7 @@ const router = createBrowserRouter([
       { index: true, element: <Home /> },
       { path: "about", element: <About /> },
       { path: "events", element: <Events /> },
+      { path: "news", element: <News /> },
     ],
   },
 ]);
@@ -25,9 +28,11 @@ function App() {
     return () => clearTimeout(timer);
   }, []);
   return (
-    <div>{loading ? <Preloader /> : <RouterProvider router={router} />}
+    // <div>{loading ? <Preloader /> : <RouterProvider router={router} />}
    
-    </div>
+    // </div>
+    
+    <RouterProvider router={router} />
    
   );
 }

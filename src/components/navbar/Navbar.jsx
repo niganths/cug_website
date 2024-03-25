@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-// import "./Navbar.css";
 import Logo from "../../assets/gifs/cuglogo.png";
 import { Link } from "react-router-dom";
 
@@ -11,17 +10,15 @@ function Navbar() {
   };
 
   return (
-<<<<<<< HEAD
-    <nav className="bg-white-29 bg-white-1000  justify-around">
-=======
-    <nav className="bg-opacity-75 bg-gray-29 dark:bg-gray-1000  justify-around">
->>>>>>> 20feb92513efcd78b66fd09765207a4e4fa4b606
+
+
+    <nav className="bg-opacity-75  dark:bg-zinc-900  justify-around">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <a
-          href="https://flowbite.com/"
+          href="/"
           className="flex items-center space-x-3 rtl:space-x-reverse"
         >
-          <img src={Logo} className="h-8" alt="Flowbite Logo" />
+          <img src={Logo} className="h-8" alt="Cug Logo" />
           <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
             CUG
           </span>
@@ -74,17 +71,16 @@ function Navbar() {
               </Link>
             </li>
             <li>
-<<<<<<< HEAD
-              <a href="#" className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Events</a>
-            </li>
-            <li>
-              <a href="#" className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Roadmap</a>
-            </li>
-            <li>
-              <a href="#" className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Join</a>
-=======
               <Link
-                to="/about"
+                to="/events"
+                className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+              >
+                Events
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="/"
                 className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
               >
                 Roadmap
@@ -92,20 +88,11 @@ function Navbar() {
             </li>
             <li>
               <Link
-                to="/about"
+                to="/news"
                 className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
               >
-                Event
+                News
               </Link>
-            </li>
-            <li>
-              <Link
-                to="/about"
-                className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
-              >
-                Contact
-              </Link>
->>>>>>> 20feb92513efcd78b66fd09765207a4e4fa4b606
             </li>
           </ul>
         </div>
