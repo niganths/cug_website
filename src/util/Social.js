@@ -15,10 +15,6 @@ const socials = [
     username: "force-iiitu",
     linkText: "linkedin.com/company/force-iiitu",
   },
-<<<<<<< HEAD
-=======
-  
->>>>>>> 6e380e5d91fda8f0a22c59717fa5099469a89dc4
   {
     link: "mailto:clubforce@iiitu.ac.in",
     icon: <Mail />,

@@ -30,9 +30,9 @@ function App() {
     return () => clearTimeout(timer);
   }, []);
   return (
-    // <div>{loading ? <Preloader /> : <RouterProvider router={router} />}
-    <div>
-      <RouterProvider router={router} />
+    <div>{loading ? <Preloader /> : <RouterProvider router={router} />}
+    {/* <div>
+      <RouterProvider router={router} /> */}
     </div>
    
   );
