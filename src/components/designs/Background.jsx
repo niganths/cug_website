@@ -1,16 +1,7 @@
 import React, { useEffect } from "react";
 import "./style.css";
-import Footer from "../footer/Footer";
 
 function HomePage(props) {
-  const Height = window.innerHeight;
-  const width = 1123;
-  const horizontalBoxes = Math.floor(width / 60);
-  const verticalBoxes = Math.floor(Height / 71);
-  const totalBoxes = horizontalBoxes * verticalBoxes;
-
-
-  console.log("hello w" + width);
   const { data } = props;
   const render = data === "home" ? 200 : totalBoxes * 1.5;
 

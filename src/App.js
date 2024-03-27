@@ -6,6 +6,8 @@ import RootLayout from "./pages/RootLayout";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Preloader from "./components/preloader/PreLoader";
 import RoadMap from "./pages/RoadMap.jsx";
+import News from "./pages/news/News.jsx";
+import { dividerClasses } from "@mui/material";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -15,6 +17,7 @@ const router = createBrowserRouter([
       { path: "about", element: <About /> },
       { path: "events", element: <Events /> },
       { path: "roadmap", element: <RoadMap /> },
+      { path: "news", element: <News /> },
     ],
   },
 ]);
@@ -31,6 +34,7 @@ function App() {
     <div>
       <RouterProvider router={router} />
     </div>
+   
   );
 }
 

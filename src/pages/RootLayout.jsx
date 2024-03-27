@@ -1,5 +1,7 @@
 import { Outlet } from "react-router-dom";
 import Navbar from "../components/navbar/Navbar.jsx"
+import Navbar from "../components/navbar/Navbar.jsx"
+
 
 function RootLayout() {
   return (
@@ -7,8 +9,7 @@ function RootLayout() {
       <Navbar />
       <main>
         <Outlet />
-      </main>
-     
+      </main>     
     </>
   );
 }

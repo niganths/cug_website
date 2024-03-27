@@ -1,6 +1,7 @@
 import Background from "../components/designs/Background";
 import RotatingImageGallery from '../components/designs/RotatingImageGallery';
 import Members from "../components/profiles/Members";
+import Footer from "../components/footer/Footer";
 import "../css/about.css"
 function About() {
   return (
@@ -30,8 +31,10 @@ function About() {
         <Members/>
         </div>
       </section>
+      <section style={{marginTop:"150px"}}>
+        <Footer/>
+      </section>
       </div>
-     
     </div>
   );
 }
