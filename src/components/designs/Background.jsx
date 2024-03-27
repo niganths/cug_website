@@ -3,7 +3,8 @@ import "./style.css";
 
 function HomePage(props) {
   const { data } = props;
-  const render = data === "home" ? 400 : 280;
+  const render = data === "home" ? 200 : totalBoxes * 1.5;
+
   const bgAnimationStyle = {
     height: `${render}vh`,
   };

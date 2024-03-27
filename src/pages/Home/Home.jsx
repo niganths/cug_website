@@ -14,6 +14,7 @@ import {
   homecontent2,
   homecontent3,
 } from "../../util/homecontent.js";
+import Footer from "../../components/footer/Footer.jsx";
 function Home() {
   return (
     <>
@@ -56,6 +57,7 @@ function Home() {
             window.scrollTo(0, 2 * window.innerHeight);
           }}
         ></button>
+<<<<<<< HEAD
       </div>
       <div style={{ position: "absolute" }} className="w-full">
   <div className="flex flex-wrap justify-center mb-12">
@@ -107,6 +109,36 @@ function Home() {
         <Footer/>
       </section> */}
 
+=======
+      </section>
+      <section style={{ position: "absolute", marginTop: "8rem" }}>
+        <div className="flex justify-around mb-12">
+          <img
+            src={Img}
+            className="w-64 h-auto object-contain mr-10 rounded-full"
+            alt="object-profile"
+          />
+          <HomeCard text={homecontent1.text} content={homecontent1.content} />
+        </div>
+        <div className="flex justify-around mb-12">
+          <HomeCard text={homecontent2.text} content={homecontent2.content} />
+          <img
+            src={Img1}
+            className="w-64 h-auto object-contain mr-4 "
+            alt="object-profile"
+          />
+        </div>
+        <div className="flex justify-around">
+          <img
+            src={Img}
+            className="w-64 h-auto object-contain mr-4"
+            alt="object-profile"
+          />
+          <HomeCard text={homecontent3.text} content={homecontent3.content} />
+        </div>
+        <Footer />
+      </section>
+>>>>>>> 6e380e5d91fda8f0a22c59717fa5099469a89dc4
     </>
   );
 }

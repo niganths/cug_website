@@ -1,5 +1,4 @@
 .home > * {
- 
   height: auto;
   display: flex;
   justify-content: center;
@@ -19,7 +18,11 @@
   filter: blur(220px);
 }
 .home-hero {
+<<<<<<< HEAD
   height: 75vh;
+=======
+  height: 80vh !important;
+>>>>>>> 6e380e5d91fda8f0a22c59717fa5099469a89dc4
   background-color: #111010;
   overflow-y: hidden;
   padding-top: 1rem;
