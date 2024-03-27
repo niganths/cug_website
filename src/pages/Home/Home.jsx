@@ -12,6 +12,7 @@ import {
   homecontent2,
   homecontent3,
 } from "../../util/homecontent.js";
+import Footer from "../../components/footer/Footer.jsx";
 function Home() {
   return (
     <>
@@ -55,7 +56,7 @@ function Home() {
           }}
         ></button>
       </section>
-      <section style={{ position: "absolute" }}>
+      <section style={{ position: "absolute", marginTop: "8rem" }}>
         <div className="flex justify-around mb-12">
           <img
             src={Img}
@@ -80,6 +81,7 @@ function Home() {
           />
           <HomeCard text={homecontent3.text} content={homecontent3.content} />
         </div>
+        <Footer />
       </section>
     </>
   );
